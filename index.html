@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            
+            <div class="lolo">
+
+               <h1>priyanshu tayal</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div> 
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Welcome to My Portfolio</h1>
+                <p>I'm a web developer passionate about creating beautiful and functional websites.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="/placeholder.svg?height=200&width=300" alt="Project 1">
+                        <div class="content">
+                            <h3>Project 1</h3>
+                            <p>A brief description of the project and its key features.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="/placeholder.svg?height=200&width=300" alt="Project 2">
+                        <div class="content">
+                            <h3>Project 2</h3>
+                            <p>A brief description of the project and its key features.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="/placeholder.svg?height=200&width=300" alt="Project 3">
+                        <div class="content">
+                            <h3>Project 3</h3>
+                            <p>A brief description of the project and its key features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacth" class="info">
+            <div class="contact-container">
+                <h2>Contact Us</h2>
+                <form action="#" method="post" class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+        
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+        
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your message" rows="4" required></textarea>
+        
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
